@@ -1,0 +1,39 @@
+{
+  "name": "@bbc/psammead-most-popular",
+  "version": "2.1.0",
+  "description": "React styled component for a Paragraph",
+  "main": "dist/index.js",
+  "module": "esm/index.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbc/psammead/tree/latest/packages/components/psammead-most-popular"
+  },
+  "keywords": [
+    "bbc",
+    "most popular",
+    "most read",
+    "styled-components"
+  ],
+  "author": {
+    "name": "Psammead Maintainers",
+    "email": "PsammeadMaintainers@bbc.co.uk"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bbc/psammead/issues"
+  },
+  "homepage": "https://github.com/bbc/psammead/blob/latest/packages/components/psammead-most-popular/README.md",
+  "dependencies": {
+    "@bbc/gel-foundations": "^3.1.0",
+    "@bbc/psammead-styles": "^1.2.0"
+  },
+  "devDependencies": {
+    "@bbc/psammead-test-helpers": "^1.1.0",
+    "react": "^16.8.6",
+    "styled-components": "^4.3.2"
+  },
+  "peerDependencies": {
+    "styled-components": "^4.3.2"
+  }
+}
