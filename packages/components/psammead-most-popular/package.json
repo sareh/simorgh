@@ -1,6 +1,6 @@
 {
   "name": "@bbc/psammead-most-popular",
-  "version": "2.1.0",
+  "version": "1.0.0-alpha.0",
   "description": "React styled component for a Paragraph",
   "main": "dist/index.js",
   "module": "esm/index.js",
@@ -29,6 +29,7 @@
     "@bbc/psammead-styles": "^1.2.0"
   },
   "devDependencies": {
+    "@bbc/psammead-storybook-helpers": "^3.3.1",
     "@bbc/psammead-test-helpers": "^1.1.0",
     "react": "^16.8.6",
     "styled-components": "^4.3.2"
