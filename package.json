@@ -34,7 +34,9 @@
     "test:lint": "eslint --ext .js,jsx,json ./src ./scripts/lighthouse ./data ./cypress ./.storybook && swagger-cli validate data/schema.yaml",
     "test:lint:css": "stylelint 'src/**/*.js' 'src/**/*.jsx'",
     "test:unit": "razzle test --env=jsdom --coverage",
-    "updateSnapshots": "npm run test:unit -- -u"
+    "updateSnapshots": "npm run test:unit -- -u",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "husky": {
     "hooks": {
@@ -83,7 +85,8 @@
     "react-universal-app": "^1.0.0",
     "speculate": "^1.7.4",
     "styled-components": "^3.4.10",
-    "styled-normalize": "^8.0.3"
+    "styled-normalize": "^8.0.3",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@storybook/react": "4.0.0-alpha.8",
@@ -132,5 +135,6 @@
       "**/__tests__/**/*.js?(x)",
       "**/?(*.)+(spec|test).js?(x)"
     ]
-  }
+  },
+  "snyk": true
 }
